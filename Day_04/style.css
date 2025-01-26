@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+}
+
+.btn{
+    margin-right: 10px;
+    padding: 0 20px;
+    height: 30px;
+    background-color: white;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    font-weight: 600;
+}
+
+.searchBar{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+
+.profile{
+    margin-right: 10px;
+}
+
+.pro-btn{
+    margin-right: 10px;
+    padding: 0 20px;
+    height: 30px;
+    background-color: white;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.card-container{
+    background-color: rgb(246, 254, 255);
+    padding: 10px 50px;
+    justify-content: center;
+    min-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.card{
+    display: inline-block;
+    background-color: rgb(9, 108, 9);
+    width: 170px;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+}
+
+.card img{
+    padding: 5px;
+    width: 100%;
+    height: 150px; 
+}
+
+.card-desc {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-desc h2{
+    font-size: 1.1rem;
+}
+
+.card-desc h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin:2rem 0px;
+}
+.footer-img{
+    width: 80vw;
+}
+button{
+    height: 50px;
+    padding: 0 10px;
+    background-color: aquamarine;
+}
